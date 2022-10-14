@@ -53,9 +53,6 @@ while running:
     rad = 100
     centerX = 100
     centerY = 150
-    a = 100
-    bX = 200
-    bY = 200
     for angles in range(360):
         t = math.radians(angles) # convert to radians
         
@@ -64,7 +61,6 @@ while running:
         y = rad * math.cos(t) + centerY
     
         points.append((x,y)) # add (x,y) tuple to list
-    pygame.draw.circle(win, blue, True, points,4)
 
     # 2 of 2: draw using list of points
     # arguments: (surface, color, connect points?, points, linewidth)
