@@ -67,5 +67,5 @@ while running:
     pygame.draw.lines(win, blue, True, points,4)
     
     # animation controls
-    clock.tick(60) # wait 60 ms per frame
+    clock.tick(60) # 60 fps
     pygame.display.update()
